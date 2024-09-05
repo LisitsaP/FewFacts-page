@@ -1,6 +1,6 @@
 import BackdropModal from '@/components/backdrop-modal';
 import { getNewsItem } from '@/lib/news';
-import { notFound, useRouter } from "next/navigation";
+import { notFound} from "next/navigation";
 
 export default async function InterceptedImagePage({params}) {
    

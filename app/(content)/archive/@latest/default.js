@@ -6,7 +6,7 @@ export default async function LatestPage() {
     return (
       <> 
       <h2>
-        Latest page
+        Latest facts
         </h2>
         <NewsList news={latest}/>
         </>
